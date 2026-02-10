@@ -16,7 +16,7 @@
     font-size: 30px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .htxt {
     font-size: 30px;
   }
@@ -156,3 +156,4 @@ input[type="checkbox"]:checked + label {
 #p2:hover {
   color: #fc60a8;
 }
+
