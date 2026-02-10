@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script></script>
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div class="header">
+      <p class="htxt">
+        Generate a Custom <span id="spcl">Random Password!</span>
+      </p>
+      <p class="shtxt">Never use an insecure Password again!</p>
+    </div>
+    <div class="bdy">
+      <button class="gbtn" onclick="gen_pwords()">Generate Passwords</button>
+      <div class="features">
+        <div>
+          <input type="checkbox" id="numbers" />
+          <label for="numbers">Numbers</label>
+        </div>
+        <div>
+          <input type="checkbox" id="symbols" />
+          <label for="symbols">Symbols</label>
+        </div>
+        <div>
+          <label for="characters">No.of Characters : </label>
+          <input type="number" id="characters" min="6" max="16" />
+        </div>
+      </div>
+      <div class="line"></div>
+    </div>
+    <div class="footer">
+      <div id="p1">Variant 1 :</div>
+      <div id="p2">Variant 2 :</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

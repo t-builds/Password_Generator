@@ -1,0 +1,158 @@
+@media (max-width: 1024px) {
+  .htxt {
+    font-size: 85px;
+  }
+
+  .shtxt {
+    font-size: 45px;
+  }
+}
+@media (max-width: 768px) {
+  .htxt {
+    font-size: 75px;
+  }
+
+  .shtxt {
+    font-size: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .htxt {
+    font-size: 30px;
+  }
+
+  .shtxt {
+    font-size: 10px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+body {
+  background-color: #1c2430;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 0px 2px black;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.htxt {
+  color: #fbfdff;
+  font-size: 75px;
+  margin-bottom: 0px;
+}
+
+#spcl {
+  color: #12b075;
+  text-decoration: underline;
+}
+
+.shtxt {
+  margin-top: 0px;
+  font-size: 30px;
+  color: #b6bcc7;
+}
+
+.bdy {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.gbtn {
+  text-shadow: 0px 0px 2px black;
+  font-size: larger;
+  font-family: inherit;
+  margin: 0px;
+  padding: 10px;
+  background-color: #12b075;
+  color: #fbfdff;
+  border: 5px solid #fc60a8;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+button:active {
+  transform: scale(0.9);
+  transition: 0.1s;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+label {
+  color: #b6bcc7;
+  font-size: larger;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+label:hover {
+  color: #fbfdff;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #d4b483;
+}
+
+input[type="number"] {
+  width: 35px;
+  background-color: #d4b483;
+  border: 3px solid #fc60a8;
+  color: #333;
+  font-size: medium;
+  font-weight: bold;
+}
+
+input[type="checkbox"]:checked + label {
+  color: #12b075;
+  font-weight: bold;
+}
+
+.line {
+  margin-top: 30px;
+  border-top: 3px solid #333;
+  width: 90%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  font-family: inherit;
+  font-size: larger;
+  color: azure;
+}
+
+#p1:hover,
+#p2:hover {
+  color: #fc60a8;
+}
