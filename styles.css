@@ -151,11 +151,11 @@ input[type="checkbox"]:checked + label {
 
 @media (max-width: 480px) and (min-width: 320px) {
   .htxt {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .shtxt {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .footer {
@@ -185,3 +185,4 @@ input[type="checkbox"]:checked + label {
     padding: 5px;
   }
 }
+
