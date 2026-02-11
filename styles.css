@@ -145,7 +145,7 @@ input[type="checkbox"]:checked + label {
   }
 
   .shtxt {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .footer {
@@ -176,6 +176,7 @@ input[type="checkbox"]:checked + label {
     border: 2px solid #fc60a8;
   }
 }
+
 
 
 
