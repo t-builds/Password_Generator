@@ -1,39 +1,3 @@
-@media (max-width: 1024px) {
-  .htxt {
-    font-size: 85px;
-  }
-
-  .shtxt {
-    font-size: 45px;
-  }
-}
-@media (max-width: 768px) {
-  .htxt {
-    font-size: 75px;
-  }
-
-  .shtxt {
-    font-size: 30px;
-  }
-}
-@media (max-width: 480px) {
-  .htxt {
-    font-size: 30px;
-  }
-
-  .shtxt {
-    font-size: 10px;
-  }
-
-  .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-}
-
 body {
   background-color: #1c2430;
   font-family: "Exo 2", sans-serif;
@@ -157,3 +121,67 @@ input[type="checkbox"]:checked + label {
   color: #fc60a8;
 }
 
+@media (max-width: 1204px) and (min-width: 768px) {
+  .htxt {
+    font-size: 75px;
+  }
+
+  .shtxt {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+  .htxt {
+    font-size: 35px;
+  }
+
+  .shtxt {
+    font-size: 25px;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+  .htxt {
+    font-size: 20px;
+  }
+
+  .shtxt {
+    font-size: 15px;
+  }
+
+  .footer {
+    font-size: medium;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+  }
+
+  input[type="numbers"] {
+    width: 15px;
+    height: 15px;
+  }
+
+  label {
+    font-size: 15px;
+  }
+
+  .gbtn {
+    font-size: medium;
+    padding: 5px;
+  }
+}
