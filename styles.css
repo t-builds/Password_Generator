@@ -172,7 +172,8 @@ input[type="checkbox"]:checked + label {
 
   .gbtn {
     font-size: 10;
-    padding: 3px;
+    padding: 2px;
   }
 }
+
 
