@@ -121,16 +121,6 @@ input[type="checkbox"]:checked + label {
   color: #fc60a8;
 }
 
-@media (max-width: 1204px) and (min-width: 768px) {
-  .htxt {
-    font-size: 75px;
-  }
-
-  .shtxt {
-    font-size: 30px;
-  }
-}
-
 @media (max-width: 768px) and (min-width: 481px) {
   .htxt {
     font-size: 35px;
@@ -185,6 +175,3 @@ input[type="checkbox"]:checked + label {
     padding: 5px;
   }
 }
-
-
-
